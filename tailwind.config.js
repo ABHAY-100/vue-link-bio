@@ -12,6 +12,8 @@ export default {
         just_gray: '#858585',
         other_border: '#222222',
 
+        one: '#141414',
+        two: '#101010',
         hover_anim: '#1C1C1C',
         nav_border: 'rgba(38, 38, 38, 0.1)',
       },
