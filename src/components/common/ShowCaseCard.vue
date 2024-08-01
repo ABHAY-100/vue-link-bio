@@ -23,14 +23,14 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="border-[1px] border-other_border rounded-[14px] flex flex-row p-3.5 gap-5 w-[480px] max-md:w-full">
+  <div class="border-[1px] border-other_border rounded-[14px] flex flex-row p-3.5 gap-5 w-[480px] max-md:w-full bg-gradient-to-t from-one to-two">
     <img :src="imgSrc" :alt="imgAlt" class="w-[54px] h-[54px] rounded-[11px]">
     <div class="flex flex-row items-center justify-between w-full md:pr-3.5v max-md:gap-[40px]">
         <div class="flex flex-col justify-between min-h-10">
             <h4 class="text-sm font-bold text-not_white">{{ title }}</h4>
             <p class="text-xs text-just_gray max-w-[250px]">{{ description }}</p>
         </div>
-        <Button class="max-w-[62px] px-[16px] text-[14px] bg-button_bg rounded-[12px] text-button_text font-normal h-[40px]">View</Button>
+        <Button class="max-w-[62px] px-[16px] text-[14px] bg-button_bg rounded-[12px] text-button_text font-normal h-[40px] hover:bg-other_border duration-200 ease-in-out">View</Button>
     </div>
   </div>
 </template>

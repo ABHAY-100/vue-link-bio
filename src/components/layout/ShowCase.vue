@@ -14,12 +14,12 @@ const cards = [
     description: 'Space Club Web Design',
     imgSrc: astra,
     imgAlt: 'astra'
-  }
+  },
 ]
 </script>
 
 <template>
-  <div class="flex flex-col gap-5">
+  <div class="flex flex-col w-full gap-5">
     <p class="text-sm text-button_text pl-2.5">Showcase</p>
     <div class="flex flex-col gap-3">
       <ShowCaseCard 
