@@ -7,13 +7,15 @@ const cards = [
     title: 'Swift Summarizer',
     description: 'AI-Powered Article Summarizer',
     imgSrc: swift_summarizer,
-    imgAlt: 'swift summarizer'
+    imgAlt: 'swift summarizer',
+    link: "https://swift-summarizer.vercel.app"
   },
   {
     title: 'ASTRA',
     description: 'Space Club Web Design',
     imgSrc: astra,
-    imgAlt: 'astra'
+    imgAlt: 'astra',
+    link: "https://dribbble.com/shots/24522358-Space-Club-Web-Design-ASTRA"
   },
 ]
 </script>
@@ -29,6 +31,7 @@ const cards = [
         :description="card.description"
         :imgSrc="card.imgSrc"
         :imgAlt="card.imgAlt"
+        :link="card.link"
       />
     </div>
   </div>

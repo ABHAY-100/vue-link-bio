@@ -18,8 +18,16 @@ const props = defineProps({
   imgAlt: {
     type: String,
     required: true
+  },
+  link: {
+    type: String,
+    required: true
   }
 })
+
+const buttonView = (link) => {
+  window.open(link, "_blank");
+}
 </script>
 
 <template>
@@ -30,7 +38,7 @@ const props = defineProps({
             <h4 class="text-sm font-bold text-not_white">{{ title }}</h4>
             <p class="text-xs text-just_gray max-w-[250px]">{{ description }}</p>
         </div>
-        <Button class="max-w-[62px] px-[16px] text-[14px] bg-button_bg rounded-[12px] text-button_text font-normal h-[40px] hover:bg-other_border duration-200 ease-in-out">View</Button>
+        <Button @click="buttonView(link)" class="max-w-[62px] px-[16px] text-[14px] bg-button_bg rounded-[12px] text-button_text font-normal h-[40px] hover:bg-other_border duration-200 ease-in-out">View</Button>
     </div>
   </div>
 </template>
