@@ -12,6 +12,9 @@ export default {
         just_gray: '#858585',
         other_border: '#222222',
 
+        button_bg: '#242424',
+        button_text: '#969696',
+
         one: '#141414',
         two: '#101010',
         hover_anim: '#1C1C1C',

@@ -1,5 +1,7 @@
 <script setup>
 import NavBar from "../components/common/NavBar.vue";
+import ShowCase from "../components/layout/ShowCase.vue";
+
 import Button from "primevue/button";
 import "primeicons/primeicons.css";
 import { ref } from 'vue';
@@ -27,12 +29,12 @@ const copyEmail = async () => {
 <template>
   <NavBar />
 
-  <section class="flex items-start justify-center w-full h-screen">
-    <div class="max-w-[480px] mt-[228px] flex gap-[40px] flex-col mx-5">
+  <section class="flex flex-col items-start justify-start w-full h-screen gap-20 max-w-[480px] mx-auto px-5 mt-[228px]">
+    <div class="max-w-[480px] flex gap-[40px] flex-col sm:w-[480px] ml-[10px]">
       <div
-        class="flex flex-col items-start justify-center gap-[20px] font-normal w-full"
+        class="flex flex-col gap-[20px] font-normal w-full"
       >
-        <h3 class="w-full text-lg text-not_white">Hi, I'm Abhay.</h3>
+        <h3 class="max-w-[480px] text-lg text-not_white">Hi, I'm Abhay.</h3>
         <p class="text-sm text-just_gray max-w-[406px] w-full">
           I'm a Frontend Developer and UI/UX Designer in Cochin, India. I create
           user-friendly websites, focusing on attractive designs and smooth
@@ -62,6 +64,8 @@ const copyEmail = async () => {
         </Button>
       </div>
     </div>
+
+    <ShowCase />
   </section>
 </template>
 
