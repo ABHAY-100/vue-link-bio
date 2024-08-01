@@ -5,7 +5,7 @@ import { swift_summarizer, astra } from "../../assets";
 const cards = [
   {
     title: 'Swift Summarizer',
-    description: 'AI-powered tool for concise article summaries',
+    description: 'AI-Powered Article Summarizer',
     imgSrc: swift_summarizer,
     imgAlt: 'swift summarizer'
   },
