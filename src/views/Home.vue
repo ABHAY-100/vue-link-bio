@@ -42,7 +42,7 @@ const copyEmail = async () => {
           functionality, helping to improve online presence and user experience.
         </p>
       </div>
-      <div class="flex gap-[21px] justify-start items-start w-full">
+      <div class="flex gap-[19px] justify-start items-start w-full">
         <Button
           @click="redirectToWebsite"
           class="custom-button-icon border-[1px] rounded-[10px] border-other_border text-[#999999] h-[40px] text-sm px-[16px] flex justify-center items-center gap-[5px] font-normal hover:bg-other_border duration-200 ease-in-out"

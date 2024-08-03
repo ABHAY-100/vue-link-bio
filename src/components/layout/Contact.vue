@@ -21,11 +21,11 @@ const cards = [
 
 const socials = [
   {
-    icon: "pi pi-twitter",
+    icon: "fa-brands fa-x-twitter",
     link: "https://x.com/itsabhaybal",
   },
   {
-    icon: "fa-brands fa-linkedin-in",
+    icon: "fa-brands fa-linkedin",
     link: "https://www.linkedin.com/in/abhaybalakrishnan",
   },
   {
@@ -33,11 +33,11 @@ const socials = [
     link: "https://dribbble.com/itsabhaybal",
   },
   {
-    icon: "pi pi-instagram",
+    icon: "fa-brands fa-instagram",
     link: "https://www.instagram.com/itsabhaybal",
   },
   {
-    icon: "pi pi-github",
+    icon: "fa-brands fa-github",
     link: "https://github.com/ABHAY-100",
   },
   {
