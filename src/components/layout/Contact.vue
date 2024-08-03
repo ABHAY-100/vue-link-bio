@@ -62,7 +62,7 @@ const socials = [
           :link="card.link"
         />
     </div>
-    <div class="flex gap-[12px]  ml-[10px]">
+    <div class="flex gap-[12px]">
         <SocialBox 
         v-for="(social, index) in socials"
         :key="index"
