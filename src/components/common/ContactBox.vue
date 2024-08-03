@@ -28,7 +28,7 @@ const redirectSocials = (link) => {
 </script>
 
 <template>
-  <div @click="redirectSocials(link)" class="w-full cursor-pointer border-other_border rounded-[14px] border-[1px] px-[20px] pt-[20px] pb-[16px] flex flex-col gap-[20px]">
+  <div @click="redirectSocials(link)" class="w-full cursor-pointer border-other_border rounded-[14px] border-[1px] px-[20px] pt-[20px] pb-[16px] flex flex-col gap-[20px] hover:bg-[#121212] duration-200 ease-in-out">
     <div class="flex items-center justify-between">
       <i :class="icon" style="color: #999999; font-size: 1.5rem"></i>
       <span v-if="displayThing" class="text-sm text-just_gray bg-hover_anim px-[12px] py-[4px] rounded-[100px] max-sm:hidden">Favorite</span>
