@@ -70,9 +70,9 @@ const copyEmail = async () => {
 
     <ShowCase />
 
-      <Contact />
+    <Contact />
 
-      <Footer />
+    <Footer />
   </section>
 </template>
 
