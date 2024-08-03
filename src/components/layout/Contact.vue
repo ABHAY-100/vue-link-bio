@@ -10,11 +10,26 @@ const cards = [
     displayThing: false,
   },
   {
-    heading: "Book a call",
-    description: "Available this week.",
-    icon: "pi pi-video",
+    heading: "Chat on WhatsApp",
+    description: "Let’s chat and connect.",
+    icon: "pi pi-whatsapp",
     displayThing: true,
   },
+];
+
+const socials = [
+  {
+    icon: "pi pi-twitter",
+  },
+  {
+    icon: "pi pi-linkedin",
+  },
+  {
+    icon: "pi pi-instagram",
+  },
+  {
+    icon: "pi pi-github",
+  }
 ]
 </script>
 
@@ -32,10 +47,11 @@ const cards = [
         />
     </div>
     <div class="flex gap-[12px]">
-        <SocialBox />
-        <SocialBox />
-        <SocialBox />
-        <SocialBox />
+        <SocialBox 
+        v-for="(social, index) in socials"
+        :key="index"
+        :icon = "social.icon"
+        />
     </div>
   </div>
 </template>
