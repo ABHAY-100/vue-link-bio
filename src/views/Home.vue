@@ -1,6 +1,7 @@
 <script setup>
 import NavBar from "../components/common/NavBar.vue";
 import ShowCase from "../components/layout/ShowCase.vue";
+import  Contact from "../components/layout/Contact.vue";
 
 import Button from "primevue/button";
 import "primeicons/primeicons.css";
@@ -29,7 +30,7 @@ const copyEmail = async () => {
 <template>
   <NavBar />
 
-  <section class="flex flex-col items-start justify-start w-full h-screen gap-20 max-w-[480px] mx-auto px-5 mt-[228px]">
+  <section class="flex flex-col items-start justify-start w-full h-screen gap-20 max-w-[480px] mx-auto px-5 my-[228px]">
     <div class="max-w-[480px] flex gap-[40px] flex-col sm:w-[480px] ml-[10px]">
       <div
         class="flex flex-col gap-[20px] font-normal w-full"
@@ -66,6 +67,8 @@ const copyEmail = async () => {
     </div>
 
     <ShowCase />
+
+    <Contact />
   </section>
 </template>
 

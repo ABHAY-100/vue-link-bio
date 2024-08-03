@@ -31,7 +31,7 @@ const buttonView = (link) => {
 </script>
 
 <template>
-  <div class="border-[1px] border-other_border rounded-[14px] flex flex-row p-3.5 gap-5 w-[480px] max-md:w-full bg-gradient-to-t from-one to-two">
+  <div class="border-[1px] border-other_border rounded-[14px] flex flex-row p-3.5 gap-5 w-[480px] max-md:w-full">
     <img :src="imgSrc" :alt="imgAlt" class="w-[54px] h-[54px] rounded-[11px]">
     <div class="flex flex-row items-center justify-between w-full md:pr-3.5v max-md:gap-[40px]">
         <div class="flex flex-col justify-between min-h-10">
