@@ -32,7 +32,7 @@ const copyEmail = async () => {
   <NavBar />
 
   <section class="flex flex-col items-start justify-start w-full h-screen gap-20 max-w-[480px] mx-auto px-5 my-[228px]">
-    <div class="max-w-[480px] flex gap-[40px] flex-col sm:w-[480px]">
+    <div class="max-w-[480px] flex gap-[40px] flex-col sm:w-[480px] mx-[10px]">
       <div
         class="flex flex-col gap-[20px] font-normal w-full"
       >
