@@ -66,13 +66,13 @@ const copyEmail = async () => {
           {{ buttonText }}
         </Button>
       </div>
+    </div>
 
-      <ShowCase />
+    <ShowCase />
 
       <Contact />
 
       <Footer />
-    </div>
   </section>
 </template>
 
