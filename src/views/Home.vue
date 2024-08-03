@@ -45,14 +45,14 @@ const copyEmail = async () => {
       <div class="flex gap-[21px] justify-start items-start w-full">
         <Button
           @click="redirectToWebsite"
-          class="custom-button-icon border-[1px] rounded-[10px] border-other_border text-[#999999] h-[40px] text-sm px-[16px] max-w-[106px] flex justify-center items-center gap-[5px] font-normal hover:bg-other_border duration-200 ease-in-out"
+          class="custom-button-icon border-[1px] rounded-[10px] border-other_border text-[#999999] h-[40px] text-sm px-[16px] flex justify-center items-center gap-[5px] font-normal hover:bg-other_border duration-200 ease-in-out"
         >
-          <i
+          <!-- <i
             class="pi pi-arrow-up-right mt-[6px]"
             style="font-size: 0.78rem; margin-left: -4px; color: #999999"
-          ></i>
+          ></i> -->
           <!-- Website -->
-           Portfolio
+           View Portfolio
         </Button>
         <Button
           class="custom-button-icon border-[1px] rounded-[10px] border-other_border h-[40px] text-sm px-[16px]  flex justify-center items-center gap-[6px] font-normal text-[#999999] hover:bg-other_border duration-200 ease-in-out"
