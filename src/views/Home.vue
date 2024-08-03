@@ -12,19 +12,14 @@ const redirectToWebsite = () => {
   window.open("https://itsabhay.vercel.app", "_blank");
 };
 
-const email = 'abhaybalakrishnan884@gmail.com';
-const buttonText = ref('Resume');
-
-const copyEmail = async () => {
-  try {
-    await navigator.clipboard.writeText(email);
-    buttonText.value = "Downloading...";
-    setTimeout(() => {
-      buttonText.value = "Resume";
-    }, 2000);
-  } catch (err) {
-    console.error("Failed to copy: ", err);
-  }
+const downloadPDF = () => {
+  const pdfUrl = '../assets/docs/Resume.pdf'; // Relative path to the PDF file in the public directory
+  const a = document.createElement('a');
+  a.href = pdfUrl;
+  a.download = 'Resume.pdf'; // Name of the downloaded PDF
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
 };
 </script>
 
@@ -57,13 +52,13 @@ const copyEmail = async () => {
         </Button>
         <Button
           class="custom-button-icon border-[1px] rounded-[10px] border-other_border h-[40px] text-sm px-[16px]  flex justify-center items-center gap-[6px] font-normal text-[#999999] hover:bg-other_border duration-200 ease-in-out"
-          @click="copyEmail"
+          @click="downloadPDF"
         >
           <i
             class="pi pi-download mt-[4px]"
             style="font-size: 0.8rem; margin-left: -4px; color: #999999"
           ></i>
-          {{ buttonText }}
+          Resume
         </Button>
       </div>
     </div>
