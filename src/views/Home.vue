@@ -2,6 +2,7 @@
 import NavBar from "../components/common/NavBar.vue";
 import ShowCase from "../components/layout/ShowCase.vue";
 import  Contact from "../components/layout/Contact.vue";
+import Footer from "../components/common/Footer.vue";
 
 import Button from "primevue/button";
 import "primeicons/primeicons.css";
@@ -65,11 +66,13 @@ const copyEmail = async () => {
           {{ buttonText }}
         </Button>
       </div>
+
+      <ShowCase />
+
+      <Contact />
     </div>
 
-    <ShowCase />
-
-    <Contact />
+    <Footer />
   </section>
 </template>
 
