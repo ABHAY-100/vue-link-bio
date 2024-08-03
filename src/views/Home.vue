@@ -12,14 +12,14 @@ const redirectToWebsite = () => {
 };
 
 const email = 'abhaybalakrishnan884@gmail.com';
-const buttonText = ref('Email');
+const buttonText = ref('Resume');
 
 const copyEmail = async () => {
   try {
     await navigator.clipboard.writeText(email);
-    buttonText.value = "Copied!";
+    buttonText.value = "Downloading...";
     setTimeout(() => {
-      buttonText.value = "Email";
+      buttonText.value = "Resume";
     }, 2000);
   } catch (err) {
     console.error("Failed to copy: ", err);
@@ -45,20 +45,21 @@ const copyEmail = async () => {
       <div class="flex gap-[21px] justify-start items-start w-full">
         <Button
           @click="redirectToWebsite"
-          class="custom-button-icon border-[1px] rounded-[10px] border-other_border text-[#999999] h-[40px] text-sm px-[16px] max-w-[106px] flex justify-center items-center gap-[6px] font-normal hover:bg-other_border duration-200 ease-in-out"
+          class="custom-button-icon border-[1px] rounded-[10px] border-other_border text-[#999999] h-[40px] text-sm px-[16px] max-w-[106px] flex justify-center items-center gap-[5px] font-normal hover:bg-other_border duration-200 ease-in-out"
         >
           <i
-            class="pi pi-arrow-right mt-[5px]"
-            style="font-size: 0.8rem; margin-left: -4px; color: #999999"
+            class="pi pi-arrow-up-right mt-[6px]"
+            style="font-size: 0.78rem; margin-left: -4px; color: #999999"
           ></i>
-          Website
+          <!-- Website -->
+           Portfolio
         </Button>
         <Button
-          class="custom-button-icon border-[1px] rounded-[10px] border-other_border h-[40px] text-sm px-[16px] max-w-[106px] flex justify-center items-center gap-[6px] font-normal text-[#999999] hover:bg-other_border duration-200 ease-in-out"
+          class="custom-button-icon border-[1px] rounded-[10px] border-other_border h-[40px] text-sm px-[16px]  flex justify-center items-center gap-[6px] font-normal text-[#999999] hover:bg-other_border duration-200 ease-in-out"
           @click="copyEmail"
         >
           <i
-            class="pi pi-clone mt-[4px]"
+            class="pi pi-download mt-[4px]"
             style="font-size: 0.8rem; margin-left: -4px; color: #999999"
           ></i>
           {{ buttonText }}
