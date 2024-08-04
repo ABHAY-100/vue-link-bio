@@ -10,6 +10,7 @@ const cards = [
       "Buildin' awesome websites that look great and work even better. Let's make your online dreams a reality.",
     anothertext: "See what I've built lately",
     label: "Check it out!",
+    link: "https://swift-summarizer.vercel.app",
   },
   {
     heading: "UI/UX Design",
@@ -17,6 +18,7 @@ const cards = [
       "I craft digital experiences that are simple, stylish, and super easy to use. Love clean lines, but I'm always down to experiment with new ideas.",
     anothertext: "There's a lot to see on my Dribbble",
     label: "Check it out!",
+    link: "https://dribbble.com/itsabhaybal",
   },
 ];
 </script>
@@ -32,6 +34,7 @@ const cards = [
         :description="card.description"
         :anothertext="card.anothertext"
         :label="card.label"
+        :link="card.link"
       />
       <TheOtherCard />
     </div>
