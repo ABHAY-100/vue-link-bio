@@ -1,6 +1,7 @@
 <script setup>
 import NavBar from "../components/common/NavBar.vue";
 import ShowCase from "../components/layout/ShowCase.vue";
+import Services from "../components/layout/Services.vue";
 import Contact from "../components/layout/Contact.vue";
 import Thanks from "../components/common/Thanks.vue";
 
@@ -63,6 +64,9 @@ const downloadPDF = () => {
 
     <ShowCase />
     <!-- showcase -->
+
+    <Services />
+    <!-- services -->
 
     <Contact />
     <!-- contact -->
