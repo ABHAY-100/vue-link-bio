@@ -3,7 +3,7 @@ import { profile } from "../../assets/index.js";
 
 const redirectOnClick = () => {
   window.location.href = "https://abhayyy.vercel.app";
-}
+};
 </script>
 
 <template>
@@ -12,8 +12,8 @@ const redirectOnClick = () => {
     @click="redirectOnClick"
   >
     <img :src="profile" alt="profile_image" class="w-9 h-9" />
-    <h5 class="text-base font-medium text-not_white max-md:hidden">Abhay Balakrishnan</h5>
+    <h5 class="text-base font-medium text-not_white max-md:hidden">
+      Abhay Balakrishnan
+    </h5>
   </div>
 </template>
-
-<style scoped></style>

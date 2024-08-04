@@ -1,6 +1,6 @@
 <script setup>
-import ContactBox from '../common/ContactBox.vue';
-import SocialBox from '../common/SocialBox.vue';
+import ContactBox from "../common/ContactBox.vue";
+import SocialBox from "../common/SocialBox.vue";
 
 const cards = [
   {
@@ -44,31 +44,30 @@ const socials = [
     icon: "fa-brands fa-codepen",
     link: "https://codepen.io/itsabhaybal",
   },
-]
+];
 </script>
 
 <template>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <div class="flex flex-col gap-[20px] max-w-[480px] w-[480px] max-md:w-full">
     <p class="text-sm text-button_text pl-2.5">Contact</p>
     <div class="flex flex-row max-w-[480px] gap-[12px]">
-        <ContactBox 
-          v-for="(card, index) in cards"
-          :key="index"
-          :heading="card.heading"
-          :description="card.description"
-          :icon="card.icon"
-          :displayThing="card.displayThing"
-          :link="card.link"
-        />
+      <ContactBox
+        v-for="(card, index) in cards"
+        :key="index"
+        :heading="card.heading"
+        :description="card.description"
+        :icon="card.icon"
+        :displayThing="card.displayThing"
+        :link="card.link"
+      />
     </div>
     <div class="flex gap-[12px]">
-        <SocialBox 
+      <SocialBox
         v-for="(social, index) in socials"
         :key="index"
-        :icon = "social.icon"
-        :link = "social.link"
-        />
+        :icon="social.icon"
+        :link="social.link"
+      />
     </div>
   </div>
 </template>
