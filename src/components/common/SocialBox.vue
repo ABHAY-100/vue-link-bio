@@ -26,6 +26,5 @@ const redirectSocials = (link) => {
       :class="icon"
       style="font-size: 15px; color: #969696; margin-left: 0px"
     ></i>
-    <!-- 17,4k -->
   </Button>
 </template>

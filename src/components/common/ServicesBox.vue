@@ -22,7 +22,7 @@ const props = defineProps({
     type: String,
     required: true,
   },
-})
+});
 
 const redirectToWebsite = (link) => {
   window.open(link, "_blank");
