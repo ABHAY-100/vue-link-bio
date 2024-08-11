@@ -32,16 +32,31 @@ const downloadPDF = () => {
   <section
     class="flex flex-col items-start justify-start w-full h-fit gap-20 max-w-[480px] mx-auto mt-[228px] max-md:px-5"
   >
-    <div class="max-w-[480px] flex gap-[40px] flex-col sm:w-[480px] mx-[10px]">
-      <div class="flex flex-col gap-[20px] font-normal w-full">
-        <h3 class="max-w-[480px] text-lg text-not_white">Hi, I'm Abhay.</h3>
-        <p class="text-sm text-just_gray max-w-[406px] w-full">
+    <div 
+      class="max-w-[480px] flex gap-[40px] flex-col sm:w-[480px] mx-[10px]"
+    >
+      <div 
+        class="flex flex-col gap-[20px] font-normal w-full"
+      >
+        <h3 
+          class="max-w-[480px] text-lg text-not_white" 
+          data-aos="fade-up"
+        >
+          Hi, I'm Abhay.
+        </h3>
+        <p
+          class="text-sm text-just_gray max-w-[406px] w-full"
+          data-aos="fade-up"
+        >
           I'm a Frontend Developer and UI/UX Designer in Cochin, India. I create
           user-friendly websites, focusing on attractive designs and smooth
           functionality, helping to improve online presence and user experience.
         </p>
       </div>
-      <div class="flex gap-[19px] justify-start items-start w-full">
+      <div
+        class="flex gap-[19px] justify-start items-start w-full"
+        data-aos="fade-up"
+      >
         <Button
           @click="redirectToWebsite"
           class="custom-button-icon border-[1px] rounded-[10px] border-other_border text-[#999999] h-[40px] text-sm px-[16px] flex justify-center items-center gap-[5px] font-normal hover:bg-other_border duration-200 ease-in-out"
