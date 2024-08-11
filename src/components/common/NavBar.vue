@@ -8,7 +8,7 @@ const redirectOnClick = () => {
 
 <template>
   <div
-    class="flex justify-start items-center bg-charcoal py-4 px-5 gap-2.5 border-b-solid border-nav_border border-b-2 fixed w-full top-0 left-0"
+    class="flex justify-start items-center bg-charcoal py-4 px-5 gap-2.5 border-b-solid border-nav_border border-b-2 fixed w-full top-0 left-0 z-10"
     data-aos="fade-down"
   >
     <div
