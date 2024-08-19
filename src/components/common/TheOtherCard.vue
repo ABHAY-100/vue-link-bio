@@ -2,7 +2,7 @@
 import Button from "primevue/button";
 
 const redirectToWebsite = () => {
-  window.open("https://itsabhay.vercel.app", "_blank");
+  window.open("https://www.linkedin.com/in/abhaybalakrishnan", "_blank");
 };
 </script>
 
@@ -19,7 +19,7 @@ const redirectToWebsite = () => {
     <Button
       @click="redirectToWebsite"
       class="px-[10px] h-[31px] text-[14px] bg-button_bg rounded-[12px] text-button_text font-normal hover:bg-other_border duration-200 ease-in-out"
-      >View Portfolio</Button
+      >View LinkedIn</Button
     >
   </div>
 </template>

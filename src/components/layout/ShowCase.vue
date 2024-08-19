@@ -1,6 +1,6 @@
 <script setup>
 import ShowCaseCard from "../common/ShowCaseCard.vue";
-import { swift_summarizer, astra } from "../../assets";
+import { swift_summarizer, astra, alleviate } from "../../assets";
 
 const cards = [
   {
@@ -16,6 +16,13 @@ const cards = [
     imgSrc: astra,
     imgAlt: "astra",
     link: "https://dribbble.com/shots/24522358-Space-Club-Web-Design-ASTRA",
+  },
+  {
+    title: "Alleviate",
+    description: "Landing Page UI Design",
+    imgSrc: alleviate,
+    imgAlt: "alleviate",
+    link: "https://dribbble.com/shots/23141872-Alleviate-Web-UI",
   },
 ];
 </script>

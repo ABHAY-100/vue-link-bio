@@ -11,7 +11,7 @@ import "primeicons/primeicons.css";
 import { Resume } from "../assets";
 
 const redirectToWebsite = () => {
-  window.open("https://itsabhay.vercel.app", "_blank");
+  window.open("https://www.linkedin.com/in/abhaybalakrishnan", "_blank");
 };
 
 const downloadPDF = () => {
@@ -61,7 +61,7 @@ const downloadPDF = () => {
           @click="redirectToWebsite"
           class="custom-button-icon border-[1px] rounded-[10px] border-other_border text-[#999999] h-[40px] text-sm px-[16px] flex justify-center items-center gap-[5px] font-normal hover:bg-other_border duration-200 ease-in-out"
         >
-          View Portfolio
+          Let's Connect
         </Button>
         <Button
           class="custom-button-icon border-[1px] rounded-[10px] border-other_border h-[40px] text-sm px-[16px] flex justify-center items-center gap-[6px] font-normal text-[#999999] hover:bg-other_border duration-200 ease-in-out"
