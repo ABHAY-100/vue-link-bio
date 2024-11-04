@@ -17,13 +17,13 @@ const cards = [
     imgAlt: "astra",
     link: "https://dribbble.com/shots/24522358-Space-Club-Web-Design-ASTRA",
   },
-  {
-    title: "Alleviate",
-    description: "Landing Page UI Design",
-    imgSrc: alleviate,
-    imgAlt: "alleviate",
-    link: "https://dribbble.com/shots/23141872-Alleviate-Web-UI",
-  },
+  // {
+  //   title: "Alleviate",
+  //   description: "Landing Page UI Design",
+  //   imgSrc: alleviate,
+  //   imgAlt: "alleviate",
+  //   link: "https://dribbble.com/shots/23141872-Alleviate-Web-UI",
+  // },
 ];
 </script>
 
