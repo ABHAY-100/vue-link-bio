@@ -1,6 +1,6 @@
 <script setup>
 import ShowCaseCard from "../common/ShowCaseCard.vue";
-import { swift_summarizer, astra, alleviate } from "../../assets";
+import { swift_summarizer, astra, alleviate, eventsync } from "../../assets";
 
 const cards = [
   {
@@ -9,6 +9,13 @@ const cards = [
     imgSrc: swift_summarizer,
     imgAlt: "swift summarizer",
     link: "https://swift-summarizer.vercel.app",
+  },
+  {
+    title: "EventSync",
+    description: "A Powerful Event Management Suite",
+    imgSrc: eventsync,
+    imgAlt: "eventsync",
+    link: "https://github.com/ABHAY-100/techno-event-management",
   },
   {
     title: "ASTRA",
