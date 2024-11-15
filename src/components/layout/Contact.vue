@@ -44,6 +44,9 @@ const socials = [
     icon: "fa-brands fa-codepen",
     link: "https://codepen.io/itsabhaybal",
   },
+  {
+    icon: "fa-solid fa-code",
+    link: "https://leetcode.com/u/itsabhaybal",
 ];
 </script>
 <template>
