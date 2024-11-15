@@ -37,20 +37,23 @@ const socials = [
     link: "https://www.instagram.com/itsabhaybal",
   },
   {
-    icon: "fa-brands fa-github",
-    link: "https://github.com/ABHAY-100",
+    icon: "fa-brands fa-figma",
+    link: "https://www.figma.com/@itsabhay",
   },
   {
-    icon: "fa-brands fa-codepen",
-    link: "https://codepen.io/itsabhaybal",
+    icon: "fa-brands fa-github",
+    link: "https://github.com/ABHAY-100",
   },
   {
     icon: "fa-solid fa-code",
     link: "https://leetcode.com/u/itsabhaybal",
   },
   {
-    icon: "fa-brands fa-figma",
-    link: "https://www.figma.com/@itsabhay",
+    icon: "fa-brands fa-codepen",
+    link: "https://codepen.io/itsabhaybal",
+  },{
+    icon: "fa-brands fa-discord",
+    link: "https://discordapp.com/users/1099246104060641300",
   },
 ];
 </script>
