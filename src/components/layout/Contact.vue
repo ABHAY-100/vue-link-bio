@@ -41,10 +41,6 @@ const socials = [
     link: "https://github.com/ABHAY-100",
   },
   {
-    icon: "fa-solid fa-code",
-    link: "https://leetcode.com/u/itsabhaybal",
-  },
-  {
     icon: "fa-brands fa-codepen",
     link: "https://codepen.io/itsabhaybal",
   },
