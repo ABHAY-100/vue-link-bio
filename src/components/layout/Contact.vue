@@ -48,6 +48,10 @@ const socials = [
     icon: "fa-solid fa-code",
     link: "https://leetcode.com/u/itsabhaybal",
   },
+  {
+    icon: "fa-brands fa-figma",
+    link: "https://www.figma.com/@itsabhay",
+  },
 ];
 </script>
 <template>
