@@ -47,6 +47,7 @@ const socials = [
   {
     icon: "fa-solid fa-code",
     link: "https://leetcode.com/u/itsabhaybal",
+  },
 ];
 </script>
 <template>
