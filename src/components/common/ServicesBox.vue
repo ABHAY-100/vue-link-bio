@@ -32,7 +32,6 @@ const redirectToWebsite = (link) => {
 <template>
   <div
     class="border-[1px] border-other_border rounded-[14px] flex flex-col py-[20px] px-[20px] w-[480px] max-md:w-full"
-    data-aos="fade-up"
   >
     <div class="">
       <h4 class="text-[16px] font-normal text-not_white mb-[7px]">

@@ -8,7 +8,7 @@ const cards = [
     description: "AI-Powered Article Summarizer",
     imgSrc: swift_summarizer,
     imgAlt: "swift summarizer",
-    link: "https://swift-summarizer.vercel.app",
+    link: "https://github.com/ABHAY-100/swift-summarizer",
   },
   {
     title: "EventSync",
@@ -36,10 +36,9 @@ const cards = [
 
 <template>
   <div class="flex flex-col w-full gap-5">
-    <p class="text-sm text-button_text pl-2.5" data-aos="fade-up">Showcase</p>
+    <p class="text-sm text-button_text pl-2.5" >Showcase</p>
     <div class="flex flex-col gap-3">
       <ShowCaseCard
-        data-aos="fade-up"
         v-for="(card, index) in cards"
         :key="index"
         :title="card.title"

@@ -25,7 +25,7 @@ const cards = [
 
 <template>
   <div class="flex flex-col w-full gap-5">
-    <p class="text-sm text-button_text pl-2.5" data-aos="fade-up">Services</p>
+    <p class="text-sm text-button_text pl-2.5">Services</p>
     <div class="flex flex-col gap-3">
       <ServicesBox
         v-for="(card, index) in cards"

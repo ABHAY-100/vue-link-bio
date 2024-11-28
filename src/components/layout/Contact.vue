@@ -48,8 +48,8 @@ const socials = [
 </script>
 <template>
   <div class="flex flex-col gap-[20px] max-w-[480px] w-[480px] max-md:w-full">
-    <p class="text-sm text-button_text pl-2.5" data-aos="fade-up">Contact</p>
-    <div class="flex flex-row max-w-[480px] gap-[12px]" data-aos="fade-up">
+    <p class="text-sm text-button_text pl-2.5">Contact</p>
+    <div class="flex flex-row max-w-[480px] gap-[12px]">
       <ContactBox
         v-for="(card, index) in cards"
         :key="index"
@@ -60,7 +60,7 @@ const socials = [
         :link="card.link"
       />
     </div>
-    <div class="flex gap-[12px] flex-wrap" data-aos="fade-up">
+    <div class="flex gap-[12px] flex-wrap">
       <SocialBox
         v-for="(social, index) in socials"
         :key="index"

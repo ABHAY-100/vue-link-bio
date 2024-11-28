@@ -31,6 +31,7 @@ const downloadPDF = () => {
 
   <section
     class="flex flex-col items-start justify-start w-full h-fit gap-20 max-w-[480px] mx-auto mt-[228px] max-md:px-5 z-0"
+    data-aos="fade-up"
   >
     <div 
       class="max-w-[480px] flex gap-[40px] flex-col sm:w-[480px] mx-[10px]"
@@ -40,13 +41,11 @@ const downloadPDF = () => {
       >
         <h3 
           class="max-w-[480px] text-lg text-not_white" 
-          data-aos="fade-up"
         >
           Hi, I'm Abhay.
         </h3>
         <p
           class="text-sm text-just_gray max-w-[406px] w-full"
-          data-aos="fade-up"
         >
           I'm a Frontend Developer and UI/UX Designer in Cochin, India. I create
           user-friendly websites, focusing on attractive designs and smooth
@@ -55,7 +54,6 @@ const downloadPDF = () => {
       </div>
       <div
         class="flex gap-[19px] justify-start items-start w-full"
-        data-aos="fade-up"
       >
         <Button
           @click="redirectToWebsite"
