@@ -48,7 +48,7 @@ const downloadPDF = () => {
           class="text-sm text-just_gray max-w-[406px] w-full"
           data-aos="fade-up"
         >
-          I'm a Web Developer and UI/UX Designer in Cochin, India. I create
+          I'm a Frontend Developer and UI/UX Designer in Cochin, India. I create
           user-friendly websites, focusing on attractive designs and smooth
           functionality, helping to improve online presence and user experience.
         </p>
