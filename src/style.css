@@ -5,6 +5,8 @@
 body {
   @apply font-satoshi;
   @apply bg-charcoal;
+
+  user-select: none;
 }
 
 /* The color palette and layout of this project were particularly influenced by the work of fonsmans.com */

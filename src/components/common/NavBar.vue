@@ -1,9 +1,7 @@
 <script setup>
-import { profile } from "../../assets/index.js";
+import { portfolioContent } from "../../constants/index.js";
 
-const redirectOnClick = () => {
-  window.location.href = "https://abhayyy.vercel.app";
-};
+const user = portfolioContent.user;
 </script>
 
 <template>
@@ -15,9 +13,9 @@ const redirectOnClick = () => {
       class="flex items-center justify-start gap-2.5 cursor-pointer"
       @click="redirectOnClick"
     >
-      <img :src="profile" alt="profile_image" class="w-9 h-9" />
+      <img :src="user.profile_image" alt="profile_image" class="w-9 h-9" />
       <h5 class="text-base font-medium text-not_white max-md:hidden">
-        Abhay Balakrishnan
+        {{ user.first_name }} {{ user.last_name }}
       </h5>
     </div>
   </div>

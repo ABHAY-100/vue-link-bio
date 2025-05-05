@@ -1,7 +1,5 @@
-<script setup></script>
-
 <template>
-  <div class="loading-container">
+  <div class="z-200 loading-container">
     <picture>
       <source
         srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f609/512.webp"

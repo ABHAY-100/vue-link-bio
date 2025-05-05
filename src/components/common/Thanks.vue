@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <div class="w-[480px] max-md:w-full gap-[40px] flex flex-col font-medium">
     <div

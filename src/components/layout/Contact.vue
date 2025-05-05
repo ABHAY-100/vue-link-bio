@@ -1,6 +1,10 @@
 <script setup>
-import ContactBox from "../common/ContactBox.vue";
-import SocialBox from "../common/SocialBox.vue";
+import ContactCard from "../common/Contact_Card.vue";
+import SocialBox from "../common/Social_Card.vue";
+
+import { portfolioContent } from "../../constants/index.js";
+const user = portfolioContent.user;
+const socials = portfolioContent.socials;
 
 const cards = [
   {
@@ -8,49 +12,23 @@ const cards = [
     description: "I'll get back to you asap.",
     icon: "pi pi-at",
     displayThing: false,
-    link: "mailto:abhaybalakrishnan884@gmail.com",
+    link: `mailto:${user.email}`,
   },
   {
     heading: "Chat on WhatsApp",
     description: "Let’s chat!",
     icon: "pi pi-whatsapp",
     displayThing: true,
-    link: "https://api.whatsapp.com/send?phone=919778728414",
-  },
-];
-
-const socials = [
-  {
-    icon: "fa-brands fa-x-twitter",
-    link: "https://x.com/itsabhaybal",
-  },
-  {
-    icon: "fa-brands fa-linkedin",
-    link: "https://www.linkedin.com/in/abhaybalakrishnan",
-  },
-  {
-    icon: "fa-brands fa-dribbble",
-    link: "https://dribbble.com/itsabhaybal",
-  },
-  {
-    icon: "fa-brands fa-instagram",
-    link: "https://www.instagram.com/itsabhaybal",
-  },
-  {
-    icon: "fa-brands fa-github",
-    link: "https://github.com/ABHAY-100",
-  },
-  {
-    icon: "fa-brands fa-codepen",
-    link: "https://codepen.io/itsabhaybal",
+    link: `https://api.whatsapp.com/send?phone=${user.phone}`,
   },
 ];
 </script>
+
 <template>
   <div class="flex flex-col gap-[20px] max-w-[480px] w-[480px] max-md:w-full">
     <p class="text-sm text-button_text pl-2.5">Contact</p>
     <div class="flex flex-row max-w-[480px] gap-[12px]">
-      <ContactBox
+      <ContactCard
         v-for="(card, index) in cards"
         :key="index"
         :heading="card.heading"
@@ -65,7 +43,7 @@ const socials = [
         v-for="(social, index) in socials"
         :key="index"
         :icon="social.icon"
-        :link="social.link"
+        :link="social.url"
       />
     </div>
   </div>
