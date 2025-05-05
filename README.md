@@ -6,7 +6,6 @@ Deploy your Vueami site with Vercel in minutes.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ABHAY-100/vueami)
 
-<br/>
 
 ## 🌟 Features
 
@@ -15,7 +14,6 @@ Deploy your Vueami site with Vercel in minutes.
 - **Beautiful UI**: Styled with Tailwind CSS and PrimeVue components.
 - **Customizable**: Easily update content, assets, and styles to suit your needs.
 
-<br/>
 
 ## 🚀 Technologies Used
 
@@ -26,7 +24,6 @@ Deploy your Vueami site with Vercel in minutes.
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Deployment**: [Cloudflare](https://pages.cloudflare.com/)
 
-<br/>
 
 ## 🛠️ Getting Started
 
@@ -67,7 +64,6 @@ npm run build
 npm run preview
 ```
 
-<br/>
 
 ## 🎨 Customization
 
@@ -79,7 +75,6 @@ Most of the site content can be updated by editing the following:
 
 Feel free to show your creativity and make this portfolio truly yours! 🎉
 
-<br/>
 
 ## 🤝 Contributing
 
@@ -94,7 +89,6 @@ We welcome contributions from the community! Whether it's fixing a bug, adding a
 
 Let your creativity shine, and let's build something amazing together! 🚀
 
-<br/>
 
 ## 📜 License
 
